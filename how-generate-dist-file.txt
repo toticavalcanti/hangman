@@ -1,0 +1,27 @@
+No windows 10
+
+Na pasta do projeto faça:
+1 - Crie um ambiente virtual com o virtualenv
+Caso não o tenha instalado instale-o com:
+pip install virtualenv
+
+2 - Cria a pasta do seu ambiente virtual:
+mkdir ambiente_virtual
+
+3 - Cria um ambiente chamado ambiente_hangman:
+virtualenv.exe ambiente_virtual\ambiente_hangman
+
+4 - Ative o ambiente:
+ambiente_virtual\ambiente_hangman\Scripts\activate
+
+5 - instale o pyinstaller no ambiente virtual:
+pip install https://github.com/pyinstaller/pyinstaller/archive/develop.zip
+
+Obs. Antes de gerar o executável, desative a configuração de proteção contra vírus e ameaças do windows defender, porque ele vai achar que seu aplicativo é vírus, além de não deixar executar o arquivo, ele vai deletar automaticamento o .exe gerado.
+
+6 - Com o windows defender desativado gere o executável com:
+pyinstaller --onefile hangman.py
+
+O comando vai gerar alguns arquivos e pastas, dentro da pasta dist, estará o nosso executável, o hangman.exe, pra executar é só clicar nele, lembrando, com o windows defender desativado.
+
+
