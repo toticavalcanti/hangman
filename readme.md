@@ -15,9 +15,3 @@ cd pasta
 python hangman.py
 ```
 Pronto, agora é só interagir com o console python.
-
-![Tela do início](https://i.postimg.cc/yk4C7ZG8/01.png)
-## 
-![Digite o nome](https://i.ibb.co/v4RTv0w/02.png)
-## 
-![Palpite errado](https://i.postimg.cc/mPTxHGBx/03.png)
